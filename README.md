@@ -1,8 +1,10 @@
-## Quality-of-Life-and-Internet-Access
+# Quality-of-Life-and-Internet-Access
 
 # Introduction
 As data science students, we place much of our faith in the ability of technology to shape a more knowledgeable, ethical, and prosperous world. However, many communities around the world lack access to computers and the internet. The San Diego Foundation of September 19, 2020 defines the digital divide as threefold: an economic divide, a usability divide, and an empowerment divide. The digital divide doesn’t just describe an inequity in basic access to technology; in our rapidly developing world, it also encompasses the technical and financial ability to make full use of available technology, taking into consideration access (or lack of access) to the internet.
+
 According to the Office of Policy Development & Research of 2016, lack of high-speed internet access can negatively impact economic growth, household income, educational performance, healthcare access, and employment searches. It is clear that internet access plays a big role in one’s well being. So, we decided to analyze data about internet access and various wellness aspects in a number of countries to answer the following question: How does access to the internet affect a country’s overall quality of life?
+
 Although many studies have been conducted regarding the rural-urban digital divide in the United States, we are interested in the global impact of internet access. This analysis could help us identify whether it is worth investing in infrastructure that will provide high-speed internet access across the world, or if the presence of the internet is more detrimental than helpful.
 
 # Data Organization
