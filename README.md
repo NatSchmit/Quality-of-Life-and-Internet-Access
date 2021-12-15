@@ -17,7 +17,7 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 # World Happiness Project Data
 
 | Attribute | Data Type | Description | Nullable |
-| --- | --- |
+| --- | --- | --- | --- |
 | Country name | Categorical | Indicates country this data is collected from | No |
 
 
