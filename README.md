@@ -19,5 +19,6 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 | Attribute | Data Type | Description | Nullable |
 | --- | --- | --- | --- |
 | Country name | Categorical | Indicates country this data is collected from | No |
-
+| Year | Ordinal | Indicates year this data is collected from | No |
+| Life Ladder | Ordinal | Overall Happiness Score (Variable name Life Ladder). National average response to life evaluation question: Please imagine a ladder with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time? | No |
 
