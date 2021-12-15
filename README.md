@@ -15,3 +15,9 @@ The latter dataset, which is from the International Telecommunication Union (ITU
 After filtering the data by removing the irrelevant attributes to our analysis, we ended up with the following attributes:
 
 # World Happiness Project Data
+
+| Attribute | Data Type | Description | Nullable |
+| --- | --- |
+| Country name | Categorical | Indicates country this data is collected from | No |
+
+
