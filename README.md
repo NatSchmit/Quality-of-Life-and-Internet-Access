@@ -32,8 +32,47 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 
 Definitions acquired from the Statistical Appendix from the World Happiness Report. 
 
+# ITU Internet Access Data
+| Attribute | Data Type | Description | Nullable |
+| --- | --- | --- | --- |
+| Country | Categorical | Indicates country this data is collected from | No |
+| Years (2000-2019) | Ordinal | Indicators year this data is collected from | No |
+| Values under years | Ratio | Percent of individuals using the internet in a given country in a given year | Yes |
+
+# Data Preparation
+Both data sets were downloaded from Kaggle.com. Unnecessary columns were removed from the ITU data set such as “notes” and “source” columns which had limited applicable data. Then, we used R to merge the World Happiness Project data with the ITU data on country and year. 
+
+# Exploratory Data Analysis
+Here we explore some of the most interesting trends in our data. Please refer to our notebook to explore the findings in greater depth. 
+
+# Procedure
 
 
+# Conclusions
+The goal of our analysis was to analyze how internet access affects a country’s overall well-being. We explored data on various aspects relating to the happiness of different countries, as well as the percentage of the population who has internet access in these countries. Based on our analysis we make the following conclusions:
 
 
+# Main Observations
 
+
+# Future Directions
+
+
+# YouTube Video Links
+
+
+# Run Notebook on Google Colab
+
+
+# Inquiries
+For inquiries about this project, please contact Biddy Bi (bix@lafayette.ed), Sam Iacavazzi (iacavazs@lafayette.edu), Shirley Liu (liushi@lafayette.ed), or Natalie Schmit (schmitn@lafayette.edu).  
+
+
+# Data Sources
+World Happiness Report dataset
+ITU internet access dataset
+
+
+# Acknowledgements
+Office of Policy Development & Research, Community Development and the Digital Divide, Fall 2016
+The San Diego Foundation, What is the Digital Divide?, September 2020
