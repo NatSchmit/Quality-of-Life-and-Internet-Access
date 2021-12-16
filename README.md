@@ -1,6 +1,19 @@
 # Quality of Life and Internet Access
 [Introduction](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Introduction)
-[Data Organization] (https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Organization)
+[Data Organization](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Organization)
+[World-Happiness-Project-Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#World-Happiness-Project-Data)
+[ITU-Internet-Access-Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#ITU-Internet_Access-Data)
+[Data-Preparation](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Preparation)
+[Exploratory Data Analysis](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Exploratory-Data-Analysis)
+[Procedure](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Procedure)
+[Conclusions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Conclusions)
+[Main Observations](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Main-Observations)
+[Future Directions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Future-Directions)
+[Youtube Video Links](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Youtube-Video-Links)
+[Run Notebook on Google Colab](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Run-Notebook-on-Google-Colab)
+[Inquiries](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Inquiries)
+[Acknowledgements](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Acknowledgements)
+
 
 ## Introduction
 As data science students, we place much of our faith in the ability of technology to shape a more knowledgeable, ethical, and prosperous world. However, many communities around the world lack access to computers and the internet. The San Diego Foundation of September 19, 2020 defines the digital divide as threefold: an economic divide, a usability divide, and an empowerment divide. The digital divide doesn’t just describe an inequity in basic access to technology; in our rapidly developing world, it also encompasses the technical and financial ability to make full use of available technology, taking into consideration access (or lack of access) to the internet.
