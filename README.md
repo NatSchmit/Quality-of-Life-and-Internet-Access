@@ -1,5 +1,5 @@
-# Quality-of-Life-and-Internet-Access
-[Introduction] (https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/edit/main/README.md
+# Quality of Life and Internet Access
+[Introduction]
 
 
 ## Introduction
