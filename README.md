@@ -65,7 +65,7 @@ The goal of our analysis was to analyze how internet access affects a country’
 
 
 # Inquiries
-For inquiries about this project, please contact Biddy Bi (bix@lafayette.ed), Sam Iacavazzi (iacavazs@lafayette.edu), Shirley Liu (liushi@lafayette.ed), or Natalie Schmit (schmitn@lafayette.edu).  
+For inquiries about this project, please contact Biddy Bi (bix@lafayette.edu), Sam Iacavazzi (iacavazs@lafayette.edu), Shirley Liu (liushi@lafayette.edu), or Natalie Schmit (schmitn@lafayette.edu).  
 
 
 # Data Sources
