@@ -69,10 +69,10 @@ For inquiries about this project, please contact Biddy Bi (bix@lafayette.ed), Sa
 
 
 # Data Sources
-World Happiness Report dataset
-ITU internet access dataset
+[World Happiness Report dataset](https://worldhappiness.report/ed/2021/#appendices-and-data)
+[ITU internet access dataset](https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx)
 
 
 # Acknowledgements
-Office of Policy Development & Research, Community Development and the Digital Divide, Fall 2016
-The San Diego Foundation, What is the Digital Divide?, September 2020
+Office of Policy Development & Research, *[Community Development and the Digital Divide](https://www.huduser.gov/portal/periodicals/em/fall16/highlight1.html)*, Fall 2016
+The San Diego Foundation, *[What is the Digital Divide?](https://www.sdfoundation.org/news-events/sdf-news/what-is-the-digital-divide/)*, September 2020
