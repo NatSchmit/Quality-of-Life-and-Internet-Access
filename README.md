@@ -1,20 +1,22 @@
 # Quality-of-Life-and-Internet-Access
+[Introduction] (https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/edit/main/README.md
 
-# Introduction
+
+## Introduction
 As data science students, we place much of our faith in the ability of technology to shape a more knowledgeable, ethical, and prosperous world. However, many communities around the world lack access to computers and the internet. The San Diego Foundation of September 19, 2020 defines the digital divide as threefold: an economic divide, a usability divide, and an empowerment divide. The digital divide doesn’t just describe an inequity in basic access to technology; in our rapidly developing world, it also encompasses the technical and financial ability to make full use of available technology, taking into consideration access (or lack of access) to the internet.
 
 According to the Office of Policy Development & Research of 2016, lack of high-speed internet access can negatively impact economic growth, household income, educational performance, healthcare access, and employment searches. It is clear that internet access plays a big role in one’s well being. So, we decided to analyze data about internet access and various wellness aspects in a number of countries to answer the following question: How does access to the internet affect a country’s overall quality of life?
 
 Although many studies have been conducted regarding the rural-urban digital divide in the United States, we are interested in the global impact of internet access. This analysis could help us identify whether it is worth investing in infrastructure that will provide high-speed internet access across the world, or if the presence of the internet is more detrimental than helpful.
 
-# Data Organization
+## Data Organization
 In order to obtain insight on our question of how access to the internet affects a country’s quality of life, we used two main datasets. The first dataset, World Happiness Report, is a survey of the state of global happiness. This particular dataset compiles data from 2005 to 2020, although not every country has values for every year. Each country’s happiness score is based on answers to the Gallup World Poll. The dataset also calculates the extent to which six factors (GDP, social support, life expectancy, freedom to make life choices, generosity, and perception of corruption) contribute to a country’s happiness score.
 
 The latter dataset, which is from the International Telecommunication Union (ITU), describes the percentage of population in a given country who are using the internet. This dataset spans from 2000 to 2019, but, as with the former dataset, some countries do not have values for certain years. ITU is a UN specialized agency for global ICT (Information Communication Technology) statistics. These percentages were provided by internet providers in the specific countries. We will use these two datasets to investigate the impact that internet access has on various metrics of well-being.
 
 After filtering the data by removing the irrelevant attributes to our analysis, we ended up with the following attributes:
 
-# World Happiness Project Data
+###World Happiness Project Data
 
 | Attribute | Data Type | Description | Nullable |
 | --- | --- | --- | --- |
@@ -32,47 +34,47 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 
 Definitions acquired from the Statistical Appendix from the World Happiness Report. 
 
-# ITU Internet Access Data
+### ITU Internet Access Data
 | Attribute | Data Type | Description | Nullable |
 | --- | --- | --- | --- |
 | Country | Categorical | Indicates country this data is collected from | No |
 | Years (2000-2019) | Ordinal | Indicators year this data is collected from | No |
 | Values under years | Ratio | Percent of individuals using the internet in a given country in a given year | Yes |
 
-# Data Preparation
+## Data Preparation
 Both data sets were downloaded from Kaggle.com. Unnecessary columns were removed from the ITU data set such as “notes” and “source” columns which had limited applicable data. Then, we used R to merge the World Happiness Project data with the ITU data on country and year. 
 
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 Here we explore some of the most interesting trends in our data. Please refer to our notebook to explore the findings in greater depth. 
 
-# Procedure
+## Procedure
 
 
-# Conclusions
+## Conclusions
 The goal of our analysis was to analyze how internet access affects a country’s overall well-being. We explored data on various aspects relating to the happiness of different countries, as well as the percentage of the population who has internet access in these countries. Based on our analysis we make the following conclusions:
 
 
-# Main Observations
+## Main Observations
 
 
-# Future Directions
+## Future Directions
 
 
-# YouTube Video Links
+## YouTube Video Links
 
 
-# Run Notebook on Google Colab
+## Run Notebook on Google Colab
 
 
-# Inquiries
+## Inquiries
 For inquiries about this project, please contact Biddy Bi (bix@lafayette.edu), Sam Iacavazzi (iacavazs@lafayette.edu), Shirley Liu (liushi@lafayette.edu), or Natalie Schmit (schmitn@lafayette.edu).  
 
 
-# Data Sources
+## Data Sources
 - [World Happiness Report dataset](https://worldhappiness.report/ed/2021/#appendices-and-data)
 - [ITU internet access dataset](https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx)
 
 
-# Acknowledgements
+## Acknowledgements
 - Office of Policy Development & Research, *[Community Development and the Digital Divide](https://www.huduser.gov/portal/periodicals/em/fall16/highlight1.html)*, Fall 2016
 - The San Diego Foundation, *[What is the Digital Divide?](https://www.sdfoundation.org/news-events/sdf-news/what-is-the-digital-divide/)*, September 2020
