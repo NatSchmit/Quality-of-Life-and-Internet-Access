@@ -1,6 +1,6 @@
 # Quality of Life and Internet Access
 [Introduction](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/edit/main/README.md#Introduction)
-[Data Organization] (https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/edit/main/README.md#Data_Organization)
+[Data Organization] (https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/edit/main/README.md#Data-Organization)
 
 ## Introduction
 As data science students, we place much of our faith in the ability of technology to shape a more knowledgeable, ethical, and prosperous world. However, many communities around the world lack access to computers and the internet. The San Diego Foundation of September 19, 2020 defines the digital divide as threefold: an economic divide, a usability divide, and an empowerment divide. The digital divide doesn’t just describe an inequity in basic access to technology; in our rapidly developing world, it also encompasses the technical and financial ability to make full use of available technology, taking into consideration access (or lack of access) to the internet.
