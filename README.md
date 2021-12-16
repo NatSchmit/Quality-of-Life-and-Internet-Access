@@ -1,18 +1,19 @@
 # Quality of Life and Internet Access
-[Introduction](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Introduction)
-[Data Organization](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Organization)
-[World-Happiness-Project-Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#World-Happiness-Project-Data)
-[ITU-Internet-Access-Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#ITU-Internet_Access-Data)
-[Data-Preparation](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Preparation)
-[Exploratory Data Analysis](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Exploratory-Data-Analysis)
-[Procedure](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Procedure)
-[Conclusions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Conclusions)
-[Main Observations](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Main-Observations)
-[Future Directions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Future-Directions)
-[Youtube Video Links](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Youtube-Video-Links)
-[Run Notebook on Google Colab](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Run-Notebook-on-Google-Colab)
-[Inquiries](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Inquiries)
-[Acknowledgements](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Acknowledgements)
+* [Introduction](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Introduction)
+* [Data Organization](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Organization)
+  * [World-Happiness-Project-Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#World-Happiness-Project-Data)
+  * [ITU-Internet-Access-Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#ITU-Internet_Access-Data)
+  * [Data-Preparation](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Preparation)
+* [Exploratory Data Analysis](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Exploratory-Data-Analysis)
+  * Different Kinds of Charts
+* [Conclusions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Conclusions)
+  * [Main Observations](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Main-Observations)
+  * [Future Directions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Future-Directions)
+* [Youtube Video Links](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Youtube-Video-Links)
+* [Run Notebook on Google Colab](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Run-Notebook-on-Google-Colab)
+* [Inquiries](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Inquiries)
+* [Data Sources](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Sources)
+* [Acknowledgements](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Acknowledgements)
 
 
 ## Introduction
@@ -59,8 +60,6 @@ Both data sets were downloaded from Kaggle.com. Unnecessary columns were removed
 
 ## Exploratory Data Analysis
 Here we explore some of the most interesting trends in our data. Please refer to our notebook to explore the findings in greater depth. 
-
-## Procedure
 
 
 ## Conclusions
