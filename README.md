@@ -5,9 +5,9 @@
 
 * [Introduction](#introduction)
 * [Data Organization](#data-organization)
-  * [World-Happiness-Project-Data](#world-happiness-project-data)
-  * [ITU-Internet-Access-Data](#itu-internet_access-data)
-  * [Data-Preparation](#data-preparation)
+  * [World Happiness Project Data](#world-happiness-project-data)
+  * [ITU Internet Access Data](#itu-internet-access-data)
+  * [Data Preparation](#data-preparation)
 * [Exploratory Data Analysis](#exploratory-data-analysis)
   * [Distribution of Variables](#distribution-of-variables)
   * [Variable Correlation](#variable-correlation)
