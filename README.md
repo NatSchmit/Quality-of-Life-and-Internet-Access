@@ -71,12 +71,12 @@ Here we explore some of the most interesting trends in our data. Please refer to
 
 
 ### Distribution of Variables
-The following plots show the general distribution of Internet Access, Overall Happiness, Logarithmic GDP per Capita, and Freedom to Make Life Choices. These general distributions allow us to gain greater insight into the data set.
+The following plots show the general distribution of Internet Access, Overall Happiness, Logarithmic GDP per Capita, and Negative Effect. These general distributions allow us to gain greater insight into the data set.
 
-![download](https://user-images.githubusercontent.com/70483666/146561171-17fa1d9d-e9de-4b1e-a6c8-84b9aea4f0d4.png)
-![download-1](https://user-images.githubusercontent.com/70483666/146561179-a9e87ab3-6c0d-40f4-8d79-b7b22170584b.png)
-![download-2](https://user-images.githubusercontent.com/70483666/146561187-0b20bc4a-f6a4-449f-9b4d-c85e05dcfec7.png)
-![download-3](https://user-images.githubusercontent.com/70483666/146561337-bc82e09c-73c1-4ba0-8ef9-ed4efa5c4a64.png)
+![download](https://user-images.githubusercontent.com/70483666/146574284-b09354b5-9656-400b-9bdd-28d8cf1f9080.png)
+![download-1](https://user-images.githubusercontent.com/70483666/146574282-4860c4fb-904b-4722-95b4-af323fee036c.png)
+![download-2](https://user-images.githubusercontent.com/70483666/146574285-03a80322-51db-4f3b-b468-96203a6ea851.png)
+![download-15](https://user-images.githubusercontent.com/70483666/146574287-3538394d-73e0-4893-b819-d3752367225a.png)
 
 
 ### Variable Correlations
