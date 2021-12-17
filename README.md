@@ -19,14 +19,12 @@
 ## Introduction
 As data science students, we place much of our faith in the ability of technology to shape a more knowledgeable, ethical, and prosperous world. In the past decade, most countries were faced with an increasing number of Internet users. With easier access, the Internet has become an integral part of our lives. However, many communities around the world lack access to computers and the internet. The San Diego Foundation of September 19, 2020 defines the digital divide as threefold: an economic divide, a usability divide, and an empowerment divide. The digital divide doesn’t just describe an inequity in basic access to technology; in our rapidly developing world, it also encompasses the technical and financial ability to make full use of available technology, taking into consideration access (or lack of access) to the internet.
 
-
-
 According to the Office of Policy Development & Research of 2016, lack of high-speed internet access can negatively impact economic growth, household income, educational performance, healthcare access, and employment searches. It is clear that internet access plays a big role in one’s well being. However, there are opposite voices with the growing number of researches on Internet addiction saying that Internet usage caused psychosocial disorder. They claim that internet usage creates  a heightened level of psychological arousal, resulting in little sleep, failure to eat for long periods, and limited physical activity, possibly leading to the user experiencing physical and mental health problems such as depression, OCD, low family relationships and anxiety.
-
 
 So, we decided to analyze data about internet access and various wellness aspects in a number of countries to answer the following question: **How does access to the internet affect a country’s overall quality of life/ happiness?** We want to see whether internet plays a positive impact more to people's life or negative impact is more dominant.
 
 Although many studies have been conducted regarding the rural-urban digital divide in the United States, we are interested in the global impact of internet access. This analysis could help us identify whether it is worth investing in infrastructure that will provide high-speed internet access across the world, or if the presence of the internet is more detrimental than helpful.
+
 
 ## Data Organization
 In order to obtain insight on our question of how access to the internet affects a country’s quality of life, we used two main datasets. The first dataset, World Happiness Report, is a survey of the state of global happiness publiced by the Sustainable Development Solutions Network. The Report is written by a group of independent experts acting in their personal capacities. Any views expressed in this report do not necessarily reflect the views of any organization, agency or program of the United Nations. This particular dataset compiles data from 2005 to 2020, although not every country has values for every year. Each country’s happiness score is based on answers to the Gallup World Poll. The dataset also calculates the extent to which six factors (GDP, social support, life expectancy, freedom to make life choices, generosity, and perception of corruption) contribute to a country’s happiness score.
@@ -54,6 +52,7 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 
 Definitions acquired from the Statistical Appendix from the World Happiness Report. 
 
+
 ### ITU Internet Access Data
 | Attribute | Data Type | Description | Nullable |
 | --- | --- | --- | --- |
@@ -61,27 +60,67 @@ Definitions acquired from the Statistical Appendix from the World Happiness Repo
 | Years (2000-2019) | Interval | Indicators year this data is collected from | No |
 | Values under years | Ratio | Percent of individuals using the internet in a given country in a given year | Yes |
 
+
 ## Data Preparation
 Both data sets were downloaded from Kaggle.com. Unnecessary columns were removed from the ITU data set such as “notes” and “source” columns which had limited applicable data. Then, we used R to merge the World Happiness Project data with the ITU data on country and year. 
+
 
 ## Exploratory Data Analysis
 Here we explore some of the most interesting trends in our data. Please refer to our notebook to explore the findings in greater depth. 
 
-The following plots show the general distribution of Internet Access, Overall Happiness, and Logarithmic GDP per Capita. These general distributions allow us to gain greater insight into the data set.
+
+### Distribution of Variables
+The following plots show the general distribution of Internet Access, Overall Happiness, Logarithmic GDP per Capita, and Freedom to Make Life Choices. These general distributions allow us to gain greater insight into the data set.
 
 ![download](https://user-images.githubusercontent.com/70483666/146561171-17fa1d9d-e9de-4b1e-a6c8-84b9aea4f0d4.png)
 ![download-1](https://user-images.githubusercontent.com/70483666/146561179-a9e87ab3-6c0d-40f4-8d79-b7b22170584b.png)
 ![download-2](https://user-images.githubusercontent.com/70483666/146561187-0b20bc4a-f6a4-449f-9b4d-c85e05dcfec7.png)
+![download-3](https://user-images.githubusercontent.com/70483666/146561337-bc82e09c-73c1-4ba0-8ef9-ed4efa5c4a64.png)
+
+
+### Variable Correlations
+There are many different varibles in this dataset and some may have unexpected relationships. The first order of business is to visualize the relationships between all variables in order to see if any of these unexpected relationships exist.
+![download-4](https://user-images.githubusercontent.com/70483666/146561533-9b00ce71-44a6-42c1-947b-11b9e002abe5.png)
+![download-5](https://user-images.githubusercontent.com/70483666/146561534-ed68bed1-3982-490a-bc23-949fc7a446ef.png)
+
+
+### GDP and Internet Access Comparison
+As GDP and Internet Access are so closely correlated, we chose to analyze this relationship further. 
+![download-6](https://user-images.githubusercontent.com/70483666/146561673-911634ab-f72a-467e-a2a7-3206cfc09403.png)
+
+It seems that these variables have a very strong positive correlation. This relationship is a bit weaker in the earlier years, however it remains apparent that these are connected. Additionally, this relationship initially starts out looking like exponential growth that shifts to being linear over time.
+
+These results left us questioning whether GDP or Internet Access was the true driver for these outcomes. We chose to analyze the Pearson Correlation of Freedom to Make Life Chocies and perception of corruption vs. GDP and percent internet users to answer this question.
+
+![download-7](https://user-images.githubusercontent.com/70483666/146561845-f6d7f1d8-8655-425d-bf29-3496c5fcdac4.png)
+![download-8](https://user-images.githubusercontent.com/70483666/146561848-32f4ff4a-8c68-4fea-973d-c792c7ed3ec9.png)
+
+
+### World Map Data
+Our goal is to see whether there are some interesting patterns in changes in internet accessibility over time in different parts of the world. Same for the overall happiness index---Life Ladder. We also want to see what are some interesting patterns when comparing these two attributes together overtime. We hypothesize that internet access and overall happiness are correlated
+
+![download-9](https://user-images.githubusercontent.com/70483666/146562090-77ad53b6-134c-40da-b476-47d45044a255.png)
+![download-10](https://user-images.githubusercontent.com/70483666/146562093-705bb792-f159-4a0a-b315-883426c51ad9.png)
+![download-11](https://user-images.githubusercontent.com/70483666/146562094-c23dd342-8d5c-4778-89fd-9040a374aebd.png)
+![download-12](https://user-images.githubusercontent.com/70483666/146562095-175c8b22-0346-4c6f-b5a3-3e14e6f6ce6d.png)
 
 
 ## Conclusions
 The goal of our analysis was to analyze how internet access affects a country’s overall well-being. We explored data on various aspects relating to the happiness of different countries, as well as the percentage of the population who has internet access in these countries. Based on our analysis we make the following conclusions:
 
-
 ## Main Observations
+Firstly, we observed strong correlations between the percent of people with internet access and life ladder (overall happiness), log GDP, life expectancy, and social support. Those trends stayed consistent across countries from 2008 to 2019. Internet access and GDP seem to be the primary drivers of the strong positive correlation as they have high Pearson correlation statistics.
 
+Overall, most countries experienced an increase in general happiness, internet access, and other positive covariates throughout the time span. Many countries with consistent internet use, also had consistently high happiness scores, such as Australia. To take this one step further, we observed certain trends based on access to the internet. For countries with lower GDP and subsequently less infrastructure, increasing internet access makes a huge difference in happiness. For countries with high internet access already, increasing access doesn't have a significant effect on overall happiness.
 
 ## Future Directions
+Based on our insights, we can make the following recommendations to clients interested in increasing global happiness generally, and through internet access.
+
+Philanthropic organizations interested in making a difference should focus on distributing funds, infrastructure, and other necessities for internet access to those with the lowest current access. Increasing access from 10% to 20% contributes more to national happiness than from 80% to 90%. Thus, instead of making a large donation to one’s alma mater in the US or even the public school system, the biggest difference will be made by donating that same amount to a school in a country with lower overall access to the internet and overall happiness.
+
+When looking to increase internet access, organizations should consider this 2013 analysis of internet access and use in 11 African countries by Stork, Calandro, and Gillwald. This analysis found that smartphones, when combined with prepaid data plans, are an easy to learn and relatively inexpensive way to address the divide in internet access. A similar analysis in Thailand suggests that mobile internet could be an alternative technology to bridge the digital divide (Srinuan). Rather than relying on wired infrastructure or public access points such as internet cafés, schools, and libraries, it may be fruitful to invest in incentivizing competition for mobile phones and prepaid phone plans in these countries with lower internet access and investigate the effects.
+
+Moving forward, we would like to further research the correlation between education and increased happiness from internet access. We hypothesize that internet access is most closely related to general happiness when accompanied by better education systems. Additionally, we are interested in acquiring qualitative data surrounding quality of life.
 
 
 ## YouTube Video Links
@@ -100,5 +139,7 @@ For inquiries about this project, please contact Biddy Bi (bix@lafayette.edu), S
 
 
 ## Acknowledgements
-- Office of Policy Development & Research, *[Community Development and the Digital Divide](https://www.huduser.gov/portal/periodicals/em/fall16/highlight1.html)*, Fall 2016
-- The San Diego Foundation, *[What is the Digital Divide?](https://www.sdfoundation.org/news-events/sdf-news/what-is-the-digital-divide/)*, September 2020
+- Office of Policy Development & Research, Community Development and the Digital Divide, Fall 2016 
+- The San Diego Foundation, What is the Digital Divide?, September 2020 
+- Srinuan, C., Srinuan, P., & Bohlin, E. (2012). An analysis of mobile Internet access in Thailand: Implications for bridging the digital divide. Telematics and Informatics, 29(3), 254-262. https://doi.org/10.1016/j.tele.2011.10.003 
+- Stork, C., Calandro, E., & Gillwad, A. (2013). Internet going mobile: internet access and use in 11 African countries. info, 15(5), 34-51. https://doi.org/10.1108/info-05-2013-0026 
