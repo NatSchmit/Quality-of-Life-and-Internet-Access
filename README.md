@@ -9,7 +9,8 @@
   * [Variable Correlation](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Variable-Correlation)
   * [GDP and Internet Access Comparison](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#GDP-and-Internet-Access-Comparison)
   * [World Map Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#World-Map-Data)
-  * * [Happiness and Internet Access Comparison](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Happiness-and-Internet-Access-Comparison)
+  * [Happiness and Internet Access Comparison](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Happiness-and-Internet-Access-Comparison)
+  * [Confusion Matrix](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Confusion-Matrix)
 * [Conclusions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Conclusions)
   * [Main Observations](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Main-Observations)
   * [Future Directions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Future-Directions)
@@ -124,6 +125,15 @@ It seems that for countries whose internet accessibility climbs up to  near 90 p
 However, for internet accessibility that's high the whole time, the happiness index tends to be volatile. For example, around 65% of Americans had access to the internet in 2006 and by 2018 that number is over 90%. Yet, the happiness score for the United States trendsdownwards for that same time period.
 
 <img width="910" alt="Screen Shot 2021-12-17 at 10 36 54 AM" src="https://user-images.githubusercontent.com/70483666/146569890-30627d49-16e1-4931-a8e2-b9bdbc83c67c.png">
+
+### Confusion Matrix
+In the following section, our group decide to do a SoftMax Regression model on internet access to further confirm all the relation we state above. To do so, we need to first create another column since the internet percent attribute is continuous instead of a categorical data. We will classify the column percent into three groups based on percentile. In the column, number that>71 will be considered as high internet connectivity, between 15 and 71 is neutral internet , and number<15 will be considered as low connectivity. We make this division based on 25 percentile and 75 percentile of the data. Also we can see from the distribution plot at the data preparation section that the density is way higher under value 15 and the density is relativly low between 15 and 71.
+
+![download-13](https://user-images.githubusercontent.com/70483666/146570377-a9c7ec6d-98a3-4f43-8d6f-a166bbb494ad.png)
+![download-14](https://user-images.githubusercontent.com/70483666/146570378-f10fcc0e-5147-4819-9244-e3ffd7efa2b3.png)
+
+The accuracy is 73% which is not bad. We can see from the confusion matrix that most of the data falls in the main diagonal from the top left corner to the bottom right corner of the square matrix. This shows that model performs well and there's not many Type I and Type II error.
+
 
 ## Conclusions
 The goal of our analysis was to analyze how internet access affects a country’s overall well-being. We explored data on various aspects relating to the happiness of different countries, as well as the percentage of the population who has internet access in these countries. Based on our analysis we make the following conclusions:
