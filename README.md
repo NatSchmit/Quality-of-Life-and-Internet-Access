@@ -168,7 +168,7 @@ Moving forward, we would like to further research the correlation between educat
 
 
 ## Run Notebook on Google Colab
-Click the link below to run our notebook in Google Colab. No coding is required to run the notebook, you just need to download the "happiness index", "Book2", and "merged-data" files above, then run every code cell in order or click Runtime --> Run All. 
+For a more in-depth analysis and to see our code, please click the link below to run our notebook in Google Colab. No coding is required to run the notebook, you just need to download the "happiness index", "Book2", and "merged-data" files above, then run every code cell in order or click Runtime --> Run All. 
 
 https://colab.research.google.com/github/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/Final_Project_Biddy_Bi__Nat_Schmit_Sam_Iacavazzi_Shirley_Liu.ipynb 
 
