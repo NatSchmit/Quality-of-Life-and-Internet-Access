@@ -1,4 +1,6 @@
 # Quality of Life and Internet Access
+## By Biddy Bi, Sam Iacavazzi, Shirley Liu, and Natalie Schmit
+
 * [Introduction](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Introduction)
 * [Data Organization](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Organization)
   * [World-Happiness-Project-Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#World-Happiness-Project-Data)
