@@ -118,13 +118,14 @@ The overall trend for most countries's internet accessibility was increasing ove
 
 <img width="920" alt="Screen Shot 2021-12-17 at 10 34 19 AM" src="https://user-images.githubusercontent.com/70483666/146569850-ae83de5f-8451-493a-8521-ebbf05ab32c4.png">
 
-It seems that for countries whose internet accessibility climbs up to  near 90 percent, the happiness index has a upward trend. This is especially true for internet accessibility that goes up from an extreme low value, there's a upward trend in happiness index.(For example, Cameroon) 
+It seems that for countries whose internet accessibility climbs up to  near 90 percent, the happiness index has a upward trend. This is especially true for internet accessibility that goes up from an extreme low value, there's a upward trend in happiness index(For example, Cameroon).
 
 <img width="910" alt="Screen Shot 2021-12-17 at 10 36 54 AM" src="https://user-images.githubusercontent.com/70483666/146569866-e603797d-2f45-48b0-bb44-27153495b339.png">
 
 However, for internet accessibility that's high the whole time, the happiness index tends to be volatile. For example, around 65% of Americans had access to the internet in 2006 and by 2018 that number is over 90%. Yet, the happiness score for the United States trendsdownwards for that same time period.
 
-<img width="910" alt="Screen Shot 2021-12-17 at 10 36 54 AM" src="https://user-images.githubusercontent.com/70483666/146569890-30627d49-16e1-4931-a8e2-b9bdbc83c67c.png">
+<img width="913" alt="Screen Shot 2021-12-17 at 10 37 08 AM" src="https://user-images.githubusercontent.com/70483666/146573021-d4e25cbe-3242-4c5e-87d8-801aa3f4f2b2.png">
+
 
 ### Confusion Matrix
 In the following section, our group decide to do a SoftMax Regression model on internet access to further confirm all the relation we state above. To do so, we need to first create another column since the internet percent attribute is continuous instead of a categorical data. We will classify the column percent into three groups based on percentile. In the column, number that>71 will be considered as high internet connectivity, between 15 and 71 is neutral internet , and number<15 will be considered as low connectivity. We make this division based on 25 percentile and 75 percentile of the data. Also we can see from the distribution plot at the data preparation section that the density is way higher under value 15 and the density is relativly low between 15 and 71.
