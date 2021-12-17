@@ -168,7 +168,7 @@ Moving forward, we would like to further research the correlation between educat
 # More Information
 
 ## YouTube Video Links
-[Link to Walk-Through](https://youtu.be/-tQ_Oe77FNk)
+[Click here for our Walk-Through on Youtube!](https://youtu.be/-tQ_Oe77FNk)
 
 ## Run Notebook on Google Colab
 For a more in-depth analysis and to see our code, please click the link below to run our notebook in Google Colab. No coding is required to run the notebook, you just need to download the "happiness index", "Book2", and "merged-data" files above, then run every code cell in order or click Runtime --> Run All. 
