@@ -80,7 +80,7 @@ The following plots show the general distribution of Internet Access, Overall Ha
 
 
 ### Variable Correlations
-There are many different variables in this dataset and some may have unexpected relationships. The first order of business is to visualize the relationships between all variables in order to see if any of these unexpected relationships exist. We plot the correlation map below to see the correlation between each attribute. The lightest color show a strong positive correlation and the darkest color show a strong negative correlation. We chose to include 2009, 2014, and 2019 to give a wide range of years.
+There are many different variables in this dataset and some may have unexpected relationships. The first order of business is to visualize the relationships between all variables in order to see if any of these unexpected relationships exist. We plot the correlation map below to see the correlation between each attribute. The lightest color show a strong positive correlation and the darkest color show a strong negative correlation. We chose to include 2009, 2014, and 2019 to give a wide range of years here. More details and charts are shown in our colab markdown.
 
 ![download-3](https://user-images.githubusercontent.com/70483666/146574540-5c01fa00-c376-4567-a69e-998613c9267e.png)
 ![download-16](https://user-images.githubusercontent.com/70483666/146574652-961f5be7-3e6b-4559-bee5-8fff4830a4fa.png)
