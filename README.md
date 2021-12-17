@@ -5,7 +5,10 @@
   * [ITU-Internet-Access-Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#ITU-Internet_Access-Data)
   * [Data-Preparation](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Preparation)
 * [Exploratory Data Analysis](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Exploratory-Data-Analysis)
-  * Different Kinds of Charts
+  * [Distribution of Variables](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Distribution-of-Variables)
+  * [Variable Correlation](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Variable-Correlation)
+  * [GDP and Internet Access Comparison](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#GDP-and-Internet-Access-Comparison)
+  * [World Map Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#World-Map-Data)
 * [Conclusions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Conclusions)
   * [Main Observations](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Main-Observations)
   * [Future Directions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Future-Directions)
@@ -80,12 +83,14 @@ The following plots show the general distribution of Internet Access, Overall Ha
 
 ### Variable Correlations
 There are many different varibles in this dataset and some may have unexpected relationships. The first order of business is to visualize the relationships between all variables in order to see if any of these unexpected relationships exist.
+
 ![download-4](https://user-images.githubusercontent.com/70483666/146561533-9b00ce71-44a6-42c1-947b-11b9e002abe5.png)
 ![download-5](https://user-images.githubusercontent.com/70483666/146561534-ed68bed1-3982-490a-bc23-949fc7a446ef.png)
 
 
 ### GDP and Internet Access Comparison
 As GDP and Internet Access are so closely correlated, we chose to analyze this relationship further. 
+
 ![download-6](https://user-images.githubusercontent.com/70483666/146561673-911634ab-f72a-467e-a2a7-3206cfc09403.png)
 
 It seems that these variables have a very strong positive correlation. This relationship is a bit weaker in the earlier years, however it remains apparent that these are connected. Additionally, this relationship initially starts out looking like exponential growth that shifts to being linear over time.
