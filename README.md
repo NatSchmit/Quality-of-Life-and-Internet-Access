@@ -14,10 +14,12 @@
 * [Conclusions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Conclusions)
   * [Main Observations](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Main-Observations)
   * [Future Directions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Future-Directions)
-* [Youtube Video Links](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Youtube-Video-Links)
-* [Run Notebook on Google Colab](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Run-Notebook-on-Google-Colab)
-* [Inquiries](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Inquiries)
-* [Data Sources](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Sources)
+* [More Information](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#More-Information)
+  * [Youtube Video Links](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Youtube-Video-Links)
+  * [Run Notebook on Google Colab](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Run-Notebook-on-Google-Colab)
+  * [IO Page](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/) 
+  * [Inquiries](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Inquiries)
+  * [Data Sources](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Sources)
 * [Acknowledgements](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Acknowledgements)
 
 
@@ -158,6 +160,8 @@ When looking to increase internet access, organizations should consider this 201
 Moving forward, we would like to further research the correlation between education and increased happiness from internet access. We hypothesize that internet access is most closely related to general happiness when accompanied by better education systems. Additionally, we are interested in acquiring qualitative data surrounding quality of life.
 
 
+# More Information
+
 ## YouTube Video Links
 
 
@@ -166,7 +170,12 @@ Click the link below to run our notebook in Google Colab. No coding is required 
 
 https://colab.research.google.com/github/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/Final_Project_Biddy_Bi__Nat_Schmit_Sam_Iacavazzi_Shirley_Liu.ipynb 
 
-## Inquiries
+
+##IO Page
+Here is the official github.io website page: https://natschmit.github.io/Quality-of-Life-and-Internet-Access/ 
+
+
+# Inquiries
 For inquiries about this project, please contact Biddy Bi (bix@lafayette.edu),[Sam Iacavazzi] (iacavazs@lafayette.edu), Shirley Liu (liushi@lafayette.edu), or Natalie Schmit (schmitn@lafayette.edu).  
 
 
