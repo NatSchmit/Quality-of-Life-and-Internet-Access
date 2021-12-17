@@ -104,7 +104,7 @@ Then, we found the Pearson correlation for negative effect and life ladder with 
 
 ![download-17](https://user-images.githubusercontent.com/70483666/146575657-5ea9257a-833b-44bc-bba9-a2f938f54f31.png)
 
-The great depression in 2008 seems to affect some of our variables. However, the test does show us some insights. We can see from the r value plot above that life ladder have a very strong correlation with internet percent since the r value is around 0.8. The negative affect and internet percent r value is having stronger correlation over time but the absolute value of r for negative affect with percent is still smaller than life ladder with percent.
+The great depression in 2008 seems to affect some of our variables. However, the test does show us some insights. We can see from the r value plot above that life ladder have a very strong correlation with internet percent since the r value is around 0.8. The negative affect and internet percent r value is having stronger correlation over time but the absolute value of r for negative affect with percent is still smaller than life ladder with percent. Therefore, we conclude that the internet accessibility has stronger positive correlation with people's satisfaction of life(life ladder index) than the negative correlation with bad feelings(negative affect variable.) We then move on to visualize internet accessibility with life ladder.
 
 
 ### World Map Data
