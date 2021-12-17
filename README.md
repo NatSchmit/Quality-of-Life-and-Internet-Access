@@ -162,7 +162,9 @@ Moving forward, we would like to further research the correlation between educat
 
 
 ## Run Notebook on Google Colab
+Click the link below to run our notebook in Google Colab. No coding is required to run the notebook, you just need to run every code cell in order or click Runtime --> Run All. 
 
+https://colab.research.google.com/github/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/Final_Project_Biddy_Bi__Nat_Schmit_Sam_Iacavazzi_Shirley_Liu.ipynb 
 
 ## Inquiries
 For inquiries about this project, please contact Biddy Bi (bix@lafayette.edu),[Sam Iacavazzi] (iacavazs@lafayette.edu), Shirley Liu (liushi@lafayette.edu), or Natalie Schmit (schmitn@lafayette.edu).  
