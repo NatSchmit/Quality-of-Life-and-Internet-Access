@@ -80,9 +80,10 @@ The following plots show the general distribution of Internet Access, Overall Ha
 
 
 ### Variable Correlations
-There are many different variables in this dataset and some may have unexpected relationships. The first order of business is to visualize the relationships between all variables in order to see if any of these unexpected relationships exist. We plot the correlation map below to see the correlation between each attribute. The lightest color show a strong positive correlation and the darkest color show a strong negative correlation.
+There are many different variables in this dataset and some may have unexpected relationships. The first order of business is to visualize the relationships between all variables in order to see if any of these unexpected relationships exist. We plot the correlation map below to see the correlation between each attribute. The lightest color show a strong positive correlation and the darkest color show a strong negative correlation. We chose to include 2009, 2014, and 2019 to give a wide range of years.
 
-![download-4](https://user-images.githubusercontent.com/70483666/146561533-9b00ce71-44a6-42c1-947b-11b9e002abe5.png)
+![download-3](https://user-images.githubusercontent.com/70483666/146574540-5c01fa00-c376-4567-a69e-998613c9267e.png)
+![download-16](https://user-images.githubusercontent.com/70483666/146574652-961f5be7-3e6b-4559-bee5-8fff4830a4fa.png)
 ![download-5](https://user-images.githubusercontent.com/70483666/146561534-ed68bed1-3982-490a-bc23-949fc7a446ef.png)
 
 One of the biggest correlations seems to be between percent of internet users and GDP. This is expected, as internet access can be expensive since it requires both a computer and a great deal of infrastructure. Life Ladder, Healthy life expectancy, and social support also seem to have strong correlation with percent. There's an interesting pattern that Life Ladder and social support seem to be more and more positively correlated to internet percent and gdp and healthy life expectancy are strongly correlated to internet access percent all the time. There's another interesting pattern here that the internet accessibility "percent" varaible has stronger negative correlation with the negative affect and stronger positive correlation with the positive affect over the year. However, overall the positive correlation between positive affect and percent is weaker than the negative correlation between negative affect and correlation. Interestingly the plot in earlier years show a strong negative correlation between internet use and perceptions of corruption, however the strength of this correlation seems to diminish over the year.
@@ -97,7 +98,7 @@ It seems that these variables have a very strong positive correlation. This rela
 
 These results left us questioning whether GDP or Internet Access was the true driver for these outcomes. We chose to analyze the Pearson Correlation of Freedom to Make Life Chocies and perception of corruption vs. GDP and percent internet users to answer this question.
 
-![download-7](https://user-images.githubusercontent.com/70483666/146561845-f6d7f1d8-8655-425d-bf29-3496c5fcdac4.png)
+![download-7](https://user-images.githubusercontent.com/70483666/146574516-06f0a0e9-6d99-401f-b7a3-079c4baa999b.png)
 ![download-8](https://user-images.githubusercontent.com/70483666/146561848-32f4ff4a-8c68-4fea-973d-c792c7ed3ec9.png)
 
 The great depression in 2008 seems to affect some of our variables. However, the test does show us some insights. We can see from the r value plot above that life ladder have a very strong correlation with internet percent since the r value is around 0.8. The negative affect and internet percent r value is having stronger correlation over time but the absolute value of r for negative affect with percent is still smaller than life ladder with percent.
