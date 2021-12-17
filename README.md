@@ -171,7 +171,7 @@ Click the link below to run our notebook in Google Colab. No coding is required 
 https://colab.research.google.com/github/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/Final_Project_Biddy_Bi__Nat_Schmit_Sam_Iacavazzi_Shirley_Liu.ipynb 
 
 
-##IO Page
+## IO Page
 Here is the official github.io website page: https://natschmit.github.io/Quality-of-Life-and-Internet-Access/ 
 
 
