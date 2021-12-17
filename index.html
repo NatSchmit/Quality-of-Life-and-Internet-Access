@@ -1,26 +1,34 @@
-<h1> Quality of Life and Internet Access </h1> 
+Quality of Life and Internet Access
 
-<h2> Contents </h2>
-<ul>
-<li> [Introduction](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Introduction) <li/> 
-<li> [Data Organization](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Data-Organization) <li/>
-  <ul> 
-  <li> [World-Happiness-Project-Data](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#World-Happiness-Project-Data) <li/>
-  <li> [ITU-Internet-Access-Data](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#ITU-Internet_Access-Data) <li/>
-  <li> [Data-Preparation](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Data-Preparation) <li/>
-  <ul/> 
-<li> [Exploratory Data Analysis](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Exploratory-Data-Analysis)
-  * [Distribution of Variables](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Distribution-of-Variables)
-  * [Variable Correlation](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Variable-Correlation)
-  * [GDP and Internet Access Comparison](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#GDP-and-Internet-Access-Comparison)
-  * [World Map Data](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#World-Map-Data)
-  * [Happiness and Internet Access Comparison](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Happiness-and-Internet-Access-Comparison)
-  * [Confusion Matrix](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Confusion-Matrix)
-* [Conclusions](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Conclusions)
-  * [Main Observations](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Main-Observations)
-  * [Future Directions](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Future-Directions)
-* [Youtube Video Links](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Youtube-Video-Links)
-* [Run Notebook on Google Colab](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Run-Notebook-on-Google-Colab)
-* [Inquiries](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Inquiries)
-* [Data Sources](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Data-Sources)
-* [Acknowledgements](https://natschmit.github.io/Quality-of-Life-and-Internet-Access/#Acknowledgements)
+Contents
+- Introduction
+- Data Organization
+  - World-Happiness-Project-Data
+  - ITU-Internet-Access-Data
+  - Data-Preparation
+- Exploratory Data Analysis
+  - Distribution of Variables
+  - Variable Correlation
+  - GDP and Internet Access Comparison
+  - World Map Data
+  - Happiness and Internet Access Comparison
+  - Confusion Matrix
+- Conclusions
+  - Main Observations
+  - Future Directions
+Youtube Video Links
+Run Notebook on Google Colab
+Inquiries
+Data Sources
+Acknowledgements
+
+
+Introduction
+As data science students, we place much of our faith in the ability of technology to shape a more knowledgeable, ethical, and prosperous world. In the past decade, most countries were faced with an increasing number of Internet users. With easier access, the Internet has become an integral part of our lives. However, many communities around the world lack access to computers and the internet. The San Diego Foundation of September 19, 2020 defines the digital divide as threefold: an economic divide, a usability divide, and an empowerment divide. The digital divide doesn’t just describe an inequity in basic access to technology; in our rapidly developing world, it also encompasses the technical and financial ability to make full use of available technology, taking into consideration access (or lack of access) to the internet.According to the Office of Policy Development & Research of 2016, lack of high-speed internet access can negatively impact economic growth, household income, educational performance, healthcare access, and employment searches. It is clear that internet access plays a big role in one’s well being. However, there are opposite voices with the growing number of researches on Internet addiction saying that Internet usage caused psychosocial disorder. They claim that internet usage creates  a heightened level of psychological arousal, resulting in little sleep, failure to eat for long periods, and limited physical activity, possibly leading to the user experiencing physical and mental health problems such as depression, OCD, low family relationships and anxiety. So, we decided to analyze data about internet access and various wellness aspects in a number of countries to answer the following question: **How does access to the internet affect a country’s overall quality of life/ happiness?** We want to see whether internet plays a positive impact more to people's life or negative impact is more dominant. Although many studies have been conducted regarding the rural-urban digital divide in the United States, we are interested in the global impact of internet access. This analysis could help us identify whether it is worth investing in infrastructure that will provide high-speed internet access across the world, or if the presence of the internet is more detrimental than helpful.
+
+## Data Organization
+In order to obtain insight on our question of how access to the internet affects a country’s quality of life, we used two main datasets. The first dataset, World Happiness Report, is a survey of the state of global happiness publiced by the Sustainable Development Solutions Network. The Report is written by a group of independent experts acting in their personal capacities. Any views expressed in this report do not necessarily reflect the views of any organization, agency or program of the United Nations. This particular dataset compiles data from 2005 to 2020, although not every country has values for every year. Each country’s happiness score is based on answers to the Gallup World Poll. The dataset also calculates the extent to which six factors (GDP, social support, life expectancy, freedom to make life choices, generosity, and perception of corruption) contribute to a country’s happiness score.
+
+The latter dataset, which is from the International Telecommunication Union (ITU), describes the percentage of population in a given country who are using the internet. This dataset spans from 2000 to 2019, but, as with the former dataset, some countries do not have values for certain years. ITU is a UN specialized agency for global ICT (Information Communication Technology) statistics. These percentages were provided by internet providers in the specific countries. We will use these two datasets to investigate the impact that internet access has on various metrics of well-being.
+
+After filtering the data by removing the irrelevant attributes to our analysis, we ended up with the following attributes:
