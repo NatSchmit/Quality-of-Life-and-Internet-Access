@@ -94,12 +94,15 @@ As GDP and Internet Access are so closely correlated, we chose to analyze this r
 
 ![download-6](https://user-images.githubusercontent.com/70483666/146561673-911634ab-f72a-467e-a2a7-3206cfc09403.png)
 
-It seems that these variables have a very strong positive correlation. This relationship is a bit weaker in the earlier years, however it remains apparent that these are connected. Additionally, this relationship initially starts out looking like exponential growth that shifts to being linear over time.
+It seems that  GDP and Internet Access have a very strong positive correlation. This relationship is a bit weaker in the earlier years, however it remains apparent that these are connected. Additionally, this relationship initially starts out looking like exponential growth that shifts to being linear over time. 
 
-These results left us questioning whether GDP or Internet Access was the true driver for these outcomes. We chose to analyze the Pearson Correlation of Freedom to Make Life Chocies and perception of corruption vs. GDP and percent internet users to answer this question.
+These results left us questioning whether GDP or Internet Access was the true driver for these outcomes. We chose to analyze the Pearson Correlation for GDP and Internet Access with Freedom to Make Life Choices to answer this question. We concluded that Internet Access and GDP are inextricable because each is more strongly correlated with things such as Freedom to Make Life Choices at different points in time. Ultimately, Internet Access and GDP further the other, and subsequently general happiness.
 
-![download-7](https://user-images.githubusercontent.com/70483666/146574516-06f0a0e9-6d99-401f-b7a3-079c4baa999b.png)
-![download-8](https://user-images.githubusercontent.com/70483666/146561848-32f4ff4a-8c68-4fea-973d-c792c7ed3ec9.png)
+![download-17](https://user-images.githubusercontent.com/70483666/146575657-5ea9257a-833b-44bc-bba9-a2f938f54f31.png)
+
+Then, we found the Pearson correlation for negative effect and life ladder with Internet Access. We found that Internet Access is inversely correlated with Negative Effect. We chose to analyze Negative Effect as it separates feelings of happiness from general life satisfaction, which is the focus of the life ladder. The second graph proves that Internet Access improves happiness and life satisfaction.
+
+![download-18](https://user-images.githubusercontent.com/70483666/146575658-ecebe153-ff86-447c-8b49-6f8816d1e802.png)
 
 The great depression in 2008 seems to affect some of our variables. However, the test does show us some insights. We can see from the r value plot above that life ladder have a very strong correlation with internet percent since the r value is around 0.8. The negative affect and internet percent r value is having stronger correlation over time but the absolute value of r for negative affect with percent is still smaller than life ladder with percent.
 
