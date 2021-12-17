@@ -67,6 +67,12 @@ Both data sets were downloaded from Kaggle.com. Unnecessary columns were removed
 ## Exploratory Data Analysis
 Here we explore some of the most interesting trends in our data. Please refer to our notebook to explore the findings in greater depth. 
 
+The following plots show the general distribution of Internet Access, Overall Happiness, and Logarithmic GDP per Capita. These general distributions allow us to gain greater insight into the data set.
+
+![download](https://user-images.githubusercontent.com/70483666/146561171-17fa1d9d-e9de-4b1e-a6c8-84b9aea4f0d4.png)
+![download-1](https://user-images.githubusercontent.com/70483666/146561179-a9e87ab3-6c0d-40f4-8d79-b7b22170584b.png)
+![download-2](https://user-images.githubusercontent.com/70483666/146561187-0b20bc4a-f6a4-449f-9b4d-c85e05dcfec7.png)
+
 
 ## Conclusions
 The goal of our analysis was to analyze how internet access affects a country’s overall well-being. We explored data on various aspects relating to the happiness of different countries, as well as the percentage of the population who has internet access in these countries. Based on our analysis we make the following conclusions:
