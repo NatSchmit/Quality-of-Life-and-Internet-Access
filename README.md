@@ -98,11 +98,11 @@ It seems that  GDP and Internet Access have a very strong positive correlation. 
 
 These results left us questioning whether GDP or Internet Access was the true driver for these outcomes. We chose to analyze the Pearson Correlation for GDP and Internet Access with Freedom to Make Life Choices to answer this question. We concluded that Internet Access and GDP are inextricable because each is more strongly correlated with things such as Freedom to Make Life Choices at different points in time. Ultimately, Internet Access and GDP further the other, and subsequently general happiness.
 
-![download-17](https://user-images.githubusercontent.com/70483666/146575657-5ea9257a-833b-44bc-bba9-a2f938f54f31.png)
+![download-18](https://user-images.githubusercontent.com/70483666/146575658-ecebe153-ff86-447c-8b49-6f8816d1e802.png)
 
 Then, we found the Pearson correlation for negative effect and life ladder with Internet Access. We found that Internet Access is inversely correlated with Negative Effect. We chose to analyze Negative Effect as it separates feelings of happiness from general life satisfaction, which is the focus of the life ladder. The second graph proves that Internet Access improves happiness and life satisfaction.
 
-![download-18](https://user-images.githubusercontent.com/70483666/146575658-ecebe153-ff86-447c-8b49-6f8816d1e802.png)
+![download-17](https://user-images.githubusercontent.com/70483666/146575657-5ea9257a-833b-44bc-bba9-a2f938f54f31.png)
 
 The great depression in 2008 seems to affect some of our variables. However, the test does show us some insights. We can see from the r value plot above that life ladder have a very strong correlation with internet percent since the r value is around 0.8. The negative affect and internet percent r value is having stronger correlation over time but the absolute value of r for negative affect with percent is still smaller than life ladder with percent.
 
