@@ -34,8 +34,8 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 
 | Attribute | Data Type | Description | Nullable |
 | --- | --- | --- | --- |
-| Country name | Categorical | Indicates country this data is collected from | No |
-| Year | Ordinal | Indicates year this data is collected from | No |
+| Country name | Nominal | Indicates country this data is collected from | No |
+| Year | Interval | Indicates year this data is collected from | No |
 | Life Ladder | Ordinal | Overall Happiness Score (Variable name Life Ladder). National average response to life evaluation question: Please imagine a ladder with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time? | No |
 | Log GDP per capita | Ratio | Measures the total monetary value of all final goods and services produced throughout a year per person per country. Logarithmic GDP per capita means every step up the y-axis is an identical percent change in real GDP per capita. Log GDP per capita is an indicator of economic growth. | Yes |
 | Social Support | Ordinal | Having someone to count on in times of trouble (Social Support) is the national average of binary (0-1) responses to the question: If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not? | Yes |
@@ -51,8 +51,8 @@ Definitions acquired from the Statistical Appendix from the World Happiness Repo
 ### ITU Internet Access Data
 | Attribute | Data Type | Description | Nullable |
 | --- | --- | --- | --- |
-| Country | Categorical | Indicates country this data is collected from | No |
-| Years (2000-2019) | Ordinal | Indicators year this data is collected from | No |
+| Country | Nominal | Indicates country this data is collected from | No |
+| Years (2000-2019) | Interval | Indicators year this data is collected from | No |
 | Values under years | Ratio | Percent of individuals using the internet in a given country in a given year | Yes |
 
 ## Data Preparation
