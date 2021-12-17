@@ -9,6 +9,7 @@
   * [Variable Correlation](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Variable-Correlation)
   * [GDP and Internet Access Comparison](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#GDP-and-Internet-Access-Comparison)
   * [World Map Data](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#World-Map-Data)
+  * * [Happiness and Internet Access Comparison](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Happiness-and-Internet-Access-Comparison)
 * [Conclusions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Conclusions)
   * [Main Observations](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Main-Observations)
   * [Future Directions](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Future-Directions)
@@ -64,10 +65,6 @@ Definitions acquired from the Statistical Appendix from the World Happiness Repo
 | Values under years | Ratio | Percent of individuals using the internet in a given country in a given year | Yes |
 
 
-## Data Preparation
-Both data sets were downloaded from Kaggle.com. Unnecessary columns were removed from the ITU data set such as “notes” and “source” columns which had limited applicable data. Then, we used R to merge the World Happiness Project data with the ITU data on country and year. 
-
-
 ## Exploratory Data Analysis
 Here we explore some of the most interesting trends in our data. Please refer to our notebook to explore the findings in greater depth. 
 
@@ -82,10 +79,12 @@ The following plots show the general distribution of Internet Access, Overall Ha
 
 
 ### Variable Correlations
-There are many different varibles in this dataset and some may have unexpected relationships. The first order of business is to visualize the relationships between all variables in order to see if any of these unexpected relationships exist.
+There are many different variables in this dataset and some may have unexpected relationships. The first order of business is to visualize the relationships between all variables in order to see if any of these unexpected relationships exist. We plot the correlation map below to see the correlation between each attribute. The lightest color show a strong positive correlation and the darkest color show a strong negative correlation.
 
 ![download-4](https://user-images.githubusercontent.com/70483666/146561533-9b00ce71-44a6-42c1-947b-11b9e002abe5.png)
 ![download-5](https://user-images.githubusercontent.com/70483666/146561534-ed68bed1-3982-490a-bc23-949fc7a446ef.png)
+
+One of the biggest correlations seems to be between percent of internet users and GDP. This is expected, as internet access can be expensive since it requires both a computer and a great deal of infrastructure. Life Ladder, Healthy life expectancy, and social support also seem to have strong correlation with percent. There's an interesting pattern that Life Ladder and social support seem to be more and more positively correlated to internet percent and gdp and healthy life expectancy are strongly correlated to internet access percent all the time. There's another interesting pattern here that the internet accessibility "percent" varaible has stronger negative correlation with the negative affect and stronger positive correlation with the positive affect over the year. However, overall the positive correlation between positive affect and percent is weaker than the negative correlation between negative affect and correlation. Interestingly the plot in earlier years show a strong negative correlation between internet use and perceptions of corruption, however the strength of this correlation seems to diminish over the year.
 
 
 ### GDP and Internet Access Comparison
@@ -100,6 +99,8 @@ These results left us questioning whether GDP or Internet Access was the true dr
 ![download-7](https://user-images.githubusercontent.com/70483666/146561845-f6d7f1d8-8655-425d-bf29-3496c5fcdac4.png)
 ![download-8](https://user-images.githubusercontent.com/70483666/146561848-32f4ff4a-8c68-4fea-973d-c792c7ed3ec9.png)
 
+The great depression in 2008 seems to affect some of our variables. However, the test does show us some insights. We can see from the r value plot above that life ladder have a very strong correlation with internet percent since the r value is around 0.8. The negative affect and internet percent r value is having stronger correlation over time but the absolute value of r for negative affect with percent is still smaller than life ladder with percent.
+
 
 ### World Map Data
 Our goal is to see whether there are some interesting patterns in changes in internet accessibility over time in different parts of the world. Same for the overall happiness index---Life Ladder. We also want to see what are some interesting patterns when comparing these two attributes together overtime. We hypothesize that internet access and overall happiness are correlated
@@ -109,6 +110,20 @@ Our goal is to see whether there are some interesting patterns in changes in int
 ![download-11](https://user-images.githubusercontent.com/70483666/146562094-c23dd342-8d5c-4778-89fd-9040a374aebd.png)
 ![download-12](https://user-images.githubusercontent.com/70483666/146562095-175c8b22-0346-4c6f-b5a3-3e14e6f6ce6d.png)
 
+Overall, these graphs support our above hypothesis. Many countries with high percentage of internet access also have high overall happiness scores. For example, Australia has high internet access and high happiness from 2010 onward. Meanwhile, other countries show consistently low internet access and low happiness such as India. Despite these results, these graphs lack a clear explanation of change over time which we will do more clearly in the following graphs.
+
+### Happiness and Internet Access Comparison
+The overall trend for most countries's internet accessibility was increasing over time. Countries like Netherlands, Canada, UK, New Zealand, etc. have high internet accessibility throughout the entire time period. These countries also have consistantly high happiness scores. Meanwhile, countries like Saudi Arabia, Kazakhstan have rapidly increasing internet access from the low percentile to the high percentile. Furthermore, the happiness index, is way more volatile than internet index. 
+
+<img width="920" alt="Screen Shot 2021-12-17 at 10 34 19 AM" src="https://user-images.githubusercontent.com/70483666/146569850-ae83de5f-8451-493a-8521-ebbf05ab32c4.png">
+
+It seems that for countries whose internet accessibility climbs up to  near 90 percent, the happiness index has a upward trend. This is especially true for internet accessibility that goes up from an extreme low value, there's a upward trend in happiness index.(For example, Cameroon) 
+
+<img width="910" alt="Screen Shot 2021-12-17 at 10 36 54 AM" src="https://user-images.githubusercontent.com/70483666/146569866-e603797d-2f45-48b0-bb44-27153495b339.png">
+
+However, for internet accessibility that's high the whole time, the happiness index tends to be volatile. For example, around 65% of Americans had access to the internet in 2006 and by 2018 that number is over 90%. Yet, the happiness score for the United States trendsdownwards for that same time period.
+
+<img width="910" alt="Screen Shot 2021-12-17 at 10 36 54 AM" src="https://user-images.githubusercontent.com/70483666/146569890-30627d49-16e1-4931-a8e2-b9bdbc83c67c.png">
 
 ## Conclusions
 The goal of our analysis was to analyze how internet access affects a country’s overall well-being. We explored data on various aspects relating to the happiness of different countries, as well as the percentage of the population who has internet access in these countries. Based on our analysis we make the following conclusions:
