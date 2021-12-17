@@ -65,6 +65,7 @@ Definitions acquired from the Statistical Appendix from the World Happiness Repo
 
 
 ### ITU Internet Access Data
+
 | Attribute | Data Type | Description | Nullable |
 | --- | --- | --- | --- |
 | Country | Nominal | Indicates country this data is collected from | No |
