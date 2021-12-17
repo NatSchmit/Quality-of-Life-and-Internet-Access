@@ -149,7 +149,7 @@ Based on our insights, we can make the following recommendations to clients inte
 
 Philanthropic organizations interested in making a difference should focus on distributing funds, infrastructure, and other necessities for internet access to those with the lowest current access. Increasing access from 10% to 20% contributes more to national happiness than from 80% to 90%. Thus, instead of making a large donation to one’s alma mater in the US or even the public school system, the biggest difference will be made by donating that same amount to a school in a country with lower overall access to the internet and overall happiness.
 
-When looking to increase internet access, organizations should consider this 2013 analysis of internet access and use in 11 African countries by Stork, Calandro, and Gillwald. This analysis found that smartphones, when combined with prepaid data plans, are an easy to learn and relatively inexpensive way to address the divide in internet access. A similar analysis in Thailand suggests that mobile internet could be an alternative technology to bridge the digital divide (Srinuan). Rather than relying on wired infrastructure or public access points such as internet cafés, schools, and libraries, it may be fruitful to invest in incentivizing competition for mobile phones and prepaid phone plans in these countries with lower internet access and investigate the effects.
+When looking to increase internet access, organizations should consider this 2013 [analysis](https://www.emerald.com/insight/content/doi/10.1108/info-05-2013-0026/full/html) of internet access and use in 11 African countries by Stork, Calandro, and Gillwald. This analysis found that smartphones, when combined with prepaid data plans, are an easy to learn and relatively inexpensive way to address the divide in internet access. A similar [analysis](https://www.sciencedirect.com/science/article/abs/pii/S0736585311000694) in Thailand suggests that mobile internet could be an alternative technology to bridge the digital divide (Srinuan). Rather than relying on wired infrastructure or public access points such as internet cafés, schools, and libraries, it may be fruitful to invest in incentivizing competition for mobile phones and prepaid phone plans in these countries with lower internet access and investigate the effects.
 
 Moving forward, we would like to further research the correlation between education and increased happiness from internet access. We hypothesize that internet access is most closely related to general happiness when accompanied by better education systems. Additionally, we are interested in acquiring qualitative data surrounding quality of life.
 
@@ -161,7 +161,7 @@ Moving forward, we would like to further research the correlation between educat
 
 
 ## Inquiries
-For inquiries about this project, please contact Biddy Bi (bix@lafayette.edu), Sam Iacavazzi (iacavazs@lafayette.edu), Shirley Liu (liushi@lafayette.edu), or Natalie Schmit (schmitn@lafayette.edu).  
+For inquiries about this project, please contact Biddy Bi (bix@lafayette.edu),[Sam Iacavazzi] (iacavazs@lafayette.edu), Shirley Liu (liushi@lafayette.edu), or Natalie Schmit (schmitn@lafayette.edu).  
 
 
 ## Data Sources
@@ -170,7 +170,7 @@ For inquiries about this project, please contact Biddy Bi (bix@lafayette.edu), S
 
 
 ## Acknowledgements
-- Office of Policy Development & Research, Community Development and the Digital Divide, Fall 2016 
-- The San Diego Foundation, What is the Digital Divide?, September 2020 
-- Srinuan, C., Srinuan, P., & Bohlin, E. (2012). An analysis of mobile Internet access in Thailand: Implications for bridging the digital divide. Telematics and Informatics, 29(3), 254-262. https://doi.org/10.1016/j.tele.2011.10.003 
-- Stork, C., Calandro, E., & Gillwad, A. (2013). Internet going mobile: internet access and use in 11 African countries. info, 15(5), 34-51. https://doi.org/10.1108/info-05-2013-0026 
+- Office of Policy Development & Research, [Community Development and the Digital Divide](https://www.huduser.gov/portal/periodicals/em/fall16/highlight1.html), Fall 2016 
+- The San Diego Foundation, [What is the Digital Divide](https://www.sdfoundation.org/news-events/sdf-news/what-is-the-digital-divide/), September 2020 
+- Srinuan, C., Srinuan, P., & Bohlin, E. (2012). An analysis of mobile Internet access in Thailand: Implications for bridging the digital divide. Telematics and Informatics, 29(3), 254-262. [https://doi.org/10.1016/j.tele.2011.10.003](https://www.sciencedirect.com/science/article/abs/pii/S0736585311000694)
+- Stork, C., Calandro, E., & Gillwad, A. (2013). Internet going mobile: internet access and use in 11 African countries. info, 15(5), 34-51. [https://doi.org/10.1108/info-05-2013-0026](https://www.emerald.com/insight/content/doi/10.1108/info-05-2013-0026/full/html)
