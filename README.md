@@ -1,7 +1,7 @@
 # Quality of Life and Internet Access
 ## By Biddy Bi, Sam Iacavazzi, Shirley Liu, and Natalie Schmit
 
-### This repo contains a summary of the Final Project for DS 201. For more in-depth in-sight, please refer to our Google Colab linked below.
+### This contains a summary of the Final Project for DS 201. For more in-depth in-sight, please check out our walkthrough video or run our notebook directly in Google Colab linked below.
 
 * [Introduction](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Introduction)
 * [Data Organization](https://github.com/NatSchmit/Quality-of-Life-and-Internet-Access/blob/main/README.md#Data-Organization)
