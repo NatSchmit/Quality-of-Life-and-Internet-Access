@@ -181,7 +181,7 @@ Here is the official github.io website page: https://natschmit.github.io/Quality
 
 
 # Inquiries
-For inquiries about this project, please contact Biddy Bi (bix@lafayette.edu),[Sam Iacavazzi] (iacavazs@lafayette.edu), Shirley Liu (liushi@lafayette.edu), or Natalie Schmit (schmitn@lafayette.edu).  
+For inquiries about this project, please contact Biddy Bi (bix@lafayette.edu),Sam Iacavazzi (iacavazs@lafayette.edu), Shirley Liu (liushi@lafayette.edu), or Natalie Schmit (schmitn@lafayette.edu).  
 
 
 ## Data Sources
